@@ -6,7 +6,17 @@
   box-sizing: border-box;
 }
 
-html,
+html{
+    scroll-behavior:smooth;
+}
+
+#home,
+#about,
+#classes,
+#schedule,
+#contact{
+    scroll-margin-top:90px;
+}
 body {
   width: 100%;
   overflow-x: hidden;
